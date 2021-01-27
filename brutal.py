@@ -1,4 +1,4 @@
-# Semoga, allah, melaknat orang-orang yang suka rekod sc orang, aamiin
+# Semoga, allah, senantiasa memberikan kita kesehatan selalu, aamiin
 import threading, os, sys, json, time
 from bs4 import BeautifulSoup as bs
 import requests as ru
@@ -33,15 +33,15 @@ class main:
    main.main()
  def start():
   try:
-      nom=str(input(f"{kun}[{kan}•{kun}] {im}Masukkan nomor target (ex:88xx) : "))
+      nom=str(input(f"{kun}[{kan}•{kun}] {im}Masukkan nomor target bukan nomor janda ya (ex:08xx) : "))
       if len(nom) <= 5: print (f"{kun}[{kan}•{kun}] {kun}Mohon, masukkan no telp dengan benar");main.start()
       print (f"\r{kun}[{kan}•{kun}] {kan}Ok, memulai spamming...")
       print (f"{kun}[{kan}•{kun}] {im}Target : {kon}{nom}")
       spam.piza(nom)
       loding()
-      spam.map(nom)
+      spam.Bahrudi(nom)
       loding()
-      spam.mypoin(nom)
+      spam.Bahrudi(nom)
       loding()
       spam.icq(nom)
       loding()

@@ -27,7 +27,7 @@ class main:
    os.system("python brutal.py")
   elif (hyu == '4') or (hyu == '04'):
    os.system("git pull")
-   main.main()
+   main.main(100005320995528)
   else:
    print (f"{kun}[{kan}•{kun}] {kun}Masukkan pilihan dengan benar")
    main.main()
